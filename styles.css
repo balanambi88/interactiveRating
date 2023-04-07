@@ -105,3 +105,8 @@ li button:active {
 .hide {
   visibility: hidden;
 }
+
+.clickedOne {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
