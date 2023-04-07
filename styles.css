@@ -98,3 +98,10 @@ li button:active {
   border-radius: 17px;
   color: hsl(25, 97%, 53%);
 }
+
+.show {
+  visibility: visible;
+}
+.hide {
+  visibility: hidden;
+}

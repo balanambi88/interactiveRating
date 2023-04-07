@@ -11,6 +11,9 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="index.js"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,7 +25,18 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="roundCorners">
+    <div class="roundCorners success">
+      <img class="phone" src="images/illustration-thank-you.svg" />
+      <p class="thank">You selected <span id="rating"> </span> out of 5</p>
+
+      <h2>Thank you!</h2>
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don’t hesitate to get in touch!
+      </p>
+    </div>
+
+    <div class="roundCorners home">
       <img class="star" src="images/icon-star.svg" alt="star" />
       <h2>How did we do?</h2>
 
@@ -41,17 +55,7 @@
       <div class="clearfix"></div>
       <button class="submit-btn" type="submit">SUBMIT</button>
     </div>
-
-    <!--
-    <div class="roundCorners success">
-      <img class="phone" src="images/illustration-thank-you.svg" />
-      <p class="thank">You selected <span class="rating"> </span> out of 5</p>
-
-      <h2>Thank you!</h2>
-      <p>
-        We appreciate you taking the time to give a rating. If you ever need
-        more support, don’t hesitate to get in touch!
-      </p>
-    </div> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
